@@ -1,0 +1,79 @@
+﻿body {
+    background: url(blue-background.jpg); 
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.container{
+    margin:auto;
+    width:850px;
+    border:5px solid white;
+    border-radius:5px;
+    background-color:white;
+    overflow:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    padding:25px;
+    
+}
+.box{
+    margin:auto;
+    padding:15px;
+    width:500px;
+}
+.gbutton {
+  border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+
+.gbutton:hover {background-color: #3e8e41}
+
+.gbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.list{
+    padding:5px;
+}
+
+.container.ontop {
+    z-index: 999;
+    width: 500px;
+    height: 500px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    position: fixed;
+    padding: 20px;
+}
+div.general{
+    margin:auto;
+    max-width:910px;
+    padding-top:10px;
+}
+
+.head{
+    float:right;
+    border-style:none;
+    display: block;
+    background-color:rgba(0, 0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+.head:hover{
+    background-color:rgba(0,0,0,0.2);
+}
